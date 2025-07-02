@@ -1,0 +1,72 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyMiqNIeUiY6/Yt4VcZPEpYM",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Ananya020720/Python-Programs/blob/main/smallest_of_two.py\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 2,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "M5Ml0cH1ZBmL",
+        "outputId": "7f2f442d-8af1-46a1-9b07-f32e720f53c5"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter First Number: 10\n",
+            "Enter second Number: 34\n",
+            "Smallest of 10, 34 is 10\n"
+          ]
+        }
+      ],
+      "source": [
+        "num1 = int(input(\"Enter First Number: \"))\n",
+        "num2 = int(input(\"Enter second Number: \"))\n",
+        "\n",
+        "if num1 < num2:\n",
+        "  print(f\"Smallest of {num1}, {num2} is {num1}\")\n",
+        "elif num2 < num1:\n",
+        "  print(f\"Smallest of {num1}, {num2} is {num2}\")\n",
+        "else:\n",
+        "  print(\"Both the given numbers are equal\")"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "fioPkYQWZYDM"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
