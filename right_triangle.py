@@ -3,4 +3,4 @@ if h <=1:
   print("Enter height more than 1")
 else:
   for i in range(0, h):
-    print("*" * (i+1))
+    print("D" * (i+1))
